@@ -1,3 +1,5 @@
+library(plyr)
+
 testSubjects<-read.table("UCI HAR Dataset/test/subject_test.txt", header = F)
 testActivities<-read.table("UCI HAR Dataset/test/y_test.txt", header = F)
 testReadings<-read.table("UCI HAR Dataset/test/x_test.txt", header = F)
